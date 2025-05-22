@@ -1,0 +1,240 @@
+# 开发工具
+- id: development
+  name: 开发工具
+  icon: code
+  sections:
+    - name: 版本控制
+      websites:
+        - name: GitHub
+          url: https://github.com
+          icon: github
+          description: 全球最大的开源代码托管平台
+        - name: GitLab
+          url: https://gitlab.com
+          icon: gitlab
+          description: 功能强大的开源代码管理平台
+        - name: Bitbucket
+          url: https://bitbucket.org
+          icon: bitbucket
+          description: 基于Git的代码托管和协作平台
+    - name: 开发框架
+      websites:
+        - name: React
+          url: https://reactjs.org
+          icon: react
+          description: 用于构建用户界面的JavaScript库
+        - name: Vue.js
+          url: https://vuejs.org
+          icon: vuejs
+          description: 渐进式JavaScript框架
+        - name: Angular
+          url: https://angular.io
+          icon: angular
+          description: 功能强大的前端框架
+    - name: 开发工具
+      websites:
+        - name: VS Code
+          url: https://code.visualstudio.com
+          icon: code
+          description: 强大的开源代码编辑器
+        - name: WebStorm
+          url: https://www.jetbrains.com/webstorm
+          icon: terminal
+          description: 专业的JavaScript集成开发环境
+        - name: Sublime Text
+          url: https://www.sublimetext.com
+          icon: file-code
+          description: 轻量级但功能强大的文本编辑器
+
+# 设计资源
+- id: design
+  name: 设计资源
+  icon: paint-brush
+  sections:
+    - name: UI设计
+      websites:
+        - name: Figma
+          url: https://www.figma.com
+          icon: figma
+          description: 强大的在线协作设计工具
+        - name: Sketch
+          url: https://www.sketch.com
+          icon: sketch
+          description: 专业的UI设计工具
+        - name: Adobe XD
+          url: https://www.adobe.com/products/xd.html
+          icon: adobe
+          description: 用于设计和分享用户体验的工具
+    - name: 图标资源
+      websites:
+        - name: Font Awesome
+          url: https://fontawesome.com
+          icon: icons
+          description: 最流行的图标库
+        - name: Icons8
+          url: https://icons8.com
+          icon: icons8
+          description: 提供各种风格的图标资源
+        - name: Material Icons
+          url: https://fonts.google.com/icons
+          icon: material-design
+          description: Google的官方图标库
+    - name: 配色方案
+      websites:
+        - name: Coolors
+          url: https://coolors.co
+          icon: palette
+          description: 在线配色工具，可生成协调的色彩方案
+        - name: Color Hunt
+          url: https://colorhunt.co
+          icon: paint-roller
+          description: 提供精心挑选的配色方案
+        - name: Adobe Color
+          url: https://color.adobe.com
+          icon: adobe
+          description: Adobe的在线配色工具
+
+# 学习平台
+- id: learning
+  name: 学习平台
+  icon: graduation-cap
+  sections:
+    - name: 编程学习
+      websites:
+        - name: Coursera
+          url: https://www.coursera.org
+          icon: graduation-cap
+          description: 提供来自全球顶尖大学的课程
+        - name: Udemy
+          url: https://www.udemy.com
+          icon: play-circle
+          description: 提供各种主题的在线课程
+        - name: FreeCodeCamp
+          url: https://www.freecodecamp.org
+          icon: code
+          description: 通过实践项目学习编程的平台
+    - name: 文档资源
+      websites:
+        - name: MDN Web Docs
+          url: https://developer.mozilla.org
+          icon: book
+          description: 权威的Web开发文档
+        - name: W3Schools
+          url: https://www.w3schools.com
+          icon: school
+          description: 提供各种Web技术的教程和参考
+        - name: Stack Overflow
+          url: https://stackoverflow.com
+          icon: stack-overflow
+          description: 程序员的问答社区
+    - name: 视频教程
+      websites:
+        - name: YouTube
+          url: https://www.youtube.com
+          icon: youtube
+          description: 有大量编程和设计教程
+        - name: Bilibili
+          url: https://www.bilibili.com
+          icon: video
+          description: 国内知名视频平台，有许多技术教程
+        - name: Pluralsight
+          url: https://www.pluralsight.com
+          icon: play
+          description: 提供高质量的技术培训课程
+
+# 效率工具
+- id: productivity
+  name: 效率工具
+  icon: clock
+  sections:
+    - name: 任务管理
+      websites:
+        - name: Trello
+          url: https://trello.com
+          icon: list
+          description: 可视化项目管理工具
+        - name: Asana
+          url: https://asana.com
+          icon: tasks
+          description: 团队协作和任务管理平台
+        - name: Todoist
+          url: https://todoist.com
+          icon: check-square
+          description: 简单易用的任务管理应用
+    - name: 笔记工具
+      websites:
+        - name: Notion
+          url: https://www.notion.so
+          icon: note
+          description: 一体化工作空间
+        - name: Evernote
+          url: https://evernote.com
+          icon: notes
+          description: 跨平台笔记应用
+        - name: OneNote
+          url: https://www.onenote.com
+          icon: microsoft
+          description: Microsoft的笔记应用
+    - name: 时间管理
+      websites:
+        - name: Toggl Track
+          url: https://toggl.com
+          icon: clock
+          description: 时间跟踪和报告工具
+        - name: Focus@Will
+          url: https://www.focusatwill.com
+          icon: music
+          description: 通过音乐提高专注度的工具
+        - name: RescueTime
+          url: https://www.rescuetime.com
+          icon: analytics
+          description: 时间追踪和生产力分析工具
+
+# 营销资源
+- id: marketing
+  name: 营销资源
+  icon: bullhorn
+  sections:
+    - name: SEO工具
+      websites:
+        - name: Google Analytics
+          url: https://analytics.google.com
+          icon: chart-line
+          description: 强大的网站分析工具
+        - name: SEMrush
+          url: https://www.semrush.com
+          icon: search
+          description: 全能型SEO和营销工具
+        - name: Ahrefs
+          url: https://ahrefs.com
+          icon: link
+          description: 知名的SEO工具套件
+    - name: 社交媒体
+      websites:
+        - name: Hootsuite
+          url: https://hootsuite.com
+          icon: social-media
+          description: 社交媒体管理平台
+        - name: Buffer
+          url: https://buffer.com
+          icon: buffer
+          description: 社交媒体调度和分析工具
+        - name: Canva
+          url: https://www.canva.com
+          icon: design
+          description: 简单易用的设计工具
+    - name: 邮件营销
+      websites:
+        - name: Mailchimp
+          url: https://mailchimp.com
+          icon: envelope
+          description: 电子邮件营销平台
+        - name: Constant Contact
+          url: https://www.constantcontact.com
+          icon: email
+          description: 提供邮件营销和客户管理解决方案
+        - name: SendinBlue
+          url: https://www.sendinblue.com
+          icon: send
+          description: 一体化营销平台，包括邮件营销功能
+    

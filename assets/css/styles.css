@@ -1,6 +1,7 @@
 /* 基础样式 */
 body {
     font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
 }
 
 /* 颜色变量 */
@@ -9,6 +10,32 @@ body {
     --secondary: #36BFFA;
     --neutral: #F5F7FA;
     --dark: #1D2129;
+}
+
+/* 响应式字体大小 */
+h1,
+.text-2xl {
+    font-size: clamp(1.5rem, 1vw, 2.0rem);
+}
+
+h2,
+.text-xl {
+    font-size: clamp(1.0rem, 1vw, 1.5rem);
+}
+
+h3,
+.text-lg {
+    font-size: clamp(1.1rem, 1.5vw, 1.25rem);
+}
+
+p,
+.text-base {
+    font-size: clamp(1rem, 1vw, 1.1rem);
+}
+
+/* 动画过渡效果 */
+* {
+    transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 /* 移动端顶部导航栏 */
@@ -33,7 +60,7 @@ body {
 }
 
 .sidebar-link {
-    transition: background-color 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 /* 顶部区域样式 */
@@ -52,7 +79,6 @@ body {
     width: 100%;
     padding: 1.25rem 1.5rem;
     border-radius: 1rem;
-    color: var(--dark);
     outline: none;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
@@ -85,233 +111,112 @@ body {
     position: absolute;
     left: 0;
     bottom: -0.5rem;
-    width: 60px;
-    height: 3px;
-    background-color: var(--primary);
-}
-
-/* 子部分标题样式 */
-.sub-section-title {
-    position: relative;
-    padding-bottom: 0.5rem;
-}
-
-.sub-section-title::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 40px;
     height: 2px;
     background-color: var(--primary);
 }
 
 /* 网站卡片样式 */
-.websites-grid {
-    display: grid;
-    gap: 1.5rem;
-}
-
 .website-card {
     border-radius: 1rem;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    overflow: hidden;
-    transition: all 0.3s ease;
-    position: relative;
-    /* 统一高度 */
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    padding: 1.5rem;
+    box-shadow: var(--card);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .website-card:hover {
-    transform: translateY(-0.5rem);
-    box-shadow: 0 12px 30px rgba(22, 93, 255, 0.15);
-}
-
-.website-link {
-    display: block;
-    padding: 1.5rem;
-    /* 填满卡片高度 */
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+    transform: translateY(-5px);
+    box-shadow: var(--card-hover);
 }
 
 .website-header {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    /* 固定标题区域高度 */
-    min-height: 60px;
 }
 
 .website-icon {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 0.75rem;
+    --icon-size: 48px; /* 统一尺寸变量 */
+    width: var(--icon-size);
+    height: var(--icon-size);
+    border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary);
     margin-right: 1rem;
-    flex-shrink: 0;
+    background-color: var(--bg-color, #f3f4f6); /* 可自定义背景色 */
+    overflow: hidden;
 }
 
+.website-icon img,
+.website-icon i {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transform: scale(0.8); /* 初始缩放，留出空间感 */
+    transition: transform 0.2s;
+    background-color: transparent;
+}
+
+.website-icon:hover img,
+.website-icon:hover i {
+    transform: scale(1); /* 悬停时恢复原始大小 */
+}
+
+/* 限制名称最多显示两行 */
 .website-title {
-    font-size: 1.125rem;
-    font-weight: 600;
-    /* 限制标题最多两行 */
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
     overflow: hidden;
 }
 
+/* 限制介绍最多显示两行 */
 .website-description {
-    font-size: 0.875rem;
-    line-height: 1.4;
-    /* 限制简介最多两行 */
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
     overflow: hidden;
-    /* 让简介区域填满剩余空间 */
-    flex-grow: 1;
 }
 
-/* 浅色模式样式 */
-body:not(.dark) .website-card {
-    background-color: white;
-    color: var(--dark);
-}
-
-body:not(.dark) .website-icon {
-    background-color: rgba(22, 93, 255, 0.1);
-}
-
-body:not(.dark) .website-title {
-    color: var(--dark);
-}
-
-body:not(.dark) .website-description {
-    color: #64748B;
-}
-
-/* 深色模式样式 */
-.dark .website-card {
-    background-color: #1F2937;
-    color: #F3F4F6;
-}
-
-.dark .website-icon {
-    background-color: rgba(54, 191, 250, 0.1);
-}
-
-.dark .website-title {
-    color: #F3F4F6;
-}
-
-.dark .website-description {
-    color: #9CA3AF;
+/* 鼠标悬停时显示完整描述 */
+.website-card:hover .website-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #121A28; /* 背景颜色，可根据需要调整 */
+    color: #fff; /* 文字颜色，可根据需要调整 */
+    padding: 1rem;
+    opacity: 1;
+    visibility: visible;
+    -webkit-line-clamp: unset;
+    overflow: auto;
 }
 
 /* 页脚样式 */
 .footer {
-    background-color: var(--dark);
-    color: white;
-    padding: 2rem 0;
-    margin-top: 3rem;
+    padding: 1.5rem 0;
 }
 
-.social-links {
+.footer a {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.social-link {
-    color: #94A3B8;
-    transition: color 0.2s ease;
-}
-
-.social-link:hover {
-    color: white;
-}
-
-/* 工具类 */
-.hidden {
-    display: none;
-}
-
-/* 侧边栏动画 */
-.sidebar-overlay {
-    transition: opacity 0.3s ease;
-    opacity: 0;
-}
-
-.sidebar-overlay.active {
-    opacity: 1;
-}
-
-/* 平滑滚动 */
-html {
-    scroll-behavior: smooth;
-}
-
-/* 导航栏激活状态 */
-.sidebar-link.active {
-    background-color: var(--primary)/10;
-    color: var(--primary);
-}
-
-/* 全局无结果提示样式 */
-.no-results {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6rem 2rem;
-    text-align: center;
-    color: #94A3B8;
-    min-height: 40vh;
-}
-
-.no-results .empty-state-icon {
-    font-size: 4rem;
-    color: #CBD5E1;
-    margin-bottom: 1.5rem;
-}
-
-.dark .no-results .empty-state-icon {
-    color: #4B5563;
-}
-
-.no-results .empty-state-text {
-    font-size: 1.25rem;
-    line-height: 1.6;
-}
-
-.dark .no-results .empty-state-text {
-    color: #6B7280;
-}
-
-/* 浮动按钮样式 */
-.fixed-button {
     transition: all 0.3s ease;
 }
 
-.fixed-button:hover {
-    transform: scale(1.1);
+.footer a:hover {
+    transform: translateY(-2px);
 }
 
-/* 二级菜单样式 */
+/* 侧边栏子菜单样式 */
 .submenu {
-    max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
 }
 
 .submenu.expanded {
     max-height: 1000px;
-}    
+}

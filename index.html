@@ -3,113 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>极简导航</title>
+    <title>极简导航 | 高效工作学习</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script>
-        // 深色模式检测与初始化
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark');
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#36BFFA',
+                        neutral: {
+                            100: '#F5F7FA',
+                            200: '#E5E7EB',
+                            300: '#D1D5DB',
+                            400: '#9CA3AF',
+                            500: '#6B7280',
+                            600: '#4B5563',
+                            700: '#374151',
+                            800: '#1F2937',
+                            900: '#111827'
+                        }
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 6px 20px rgba(0, 0, 0, 0.08)',
+                        'card-hover': '0 12px 30px rgba(22, 93, 255, 0.15)',
+                    }
+                }
+            }
         }
     </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .backdrop-blur {
+                backdrop-filter: blur(8px);
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+        }
+    </style>
+    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
-<body class="font-sans bg-gray-50 text-gray-800 min-h-screen flex flex-col dark:bg-gray-900 dark:text-gray-100">
-    <!-- 顶部导航栏 - 移动端 -->
-    <header class="mobile-header bg-primary text-white py-3 px-4 fixed top-0 left-0 right-0 z-50 md:hidden">
-        <div class="flex items-center justify-between">
-            <button id="mobile-menu-button" class="text-white focus:outline-none">
-                <i class="fa-solid fa-bars text-xl"></i>
-            </button>
-            <h1 class="text-xl font-bold">极简导航</h1>
-            <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-                <i class="fa-globe text-white"></i>
-            </div>
-        </div>
-    </header>
-
-    <!-- 侧边栏导航 - 桌面端 -->
-    <aside class="sidebar fixed top-0 left-0 bottom-0 w-64 bg-white shadow-lg transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out z-40 overflow-y-auto dark:bg-gray-800">
-        <div class="sidebar-header bg-primary text-white p-6">
-            <h2 class="text-2xl font-bold">极简导航</h2>
-            <p class="text-sm opacity-80 mt-1">精选优质网站</p>
-        </div>
-        
-        <nav class="sidebar-nav p-4">
-            <ul id="sidebar-nav-list">
-                <!-- 侧边栏导航将通过JS动态生成 -->
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- 遮罩层 -->
-    <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden md:hidden"></div>
-
-    <!-- 主内容区 -->
-    <main class="flex-grow pt-24 md:pt-16 md:ml-64 p-4 md:p-8 max-w-6xl mx-auto md:mx-0 md:mr-auto">
-        <!-- 顶部区域 - 调整搜索框位置 -->
-        <div class="header mb-16 md:mb-20">
-            <div class="search-container mx-auto max-w-3xl">
-                <div class="relative">
-                    <input type="text" id="search-input" placeholder="搜索网站..." 
-                        class="w-full px-6 py-4 rounded-xl bg-gray-100 text-gray-800 focus:outline-none focus:ring-3 focus:ring-secondary/50 transition-all duration-300 shadow-lg dark:bg-gray-700 dark:text-white">
-                    <button id="search-button" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-primary hover:text-secondary transition-colors">
-                        <i class="fa-solid fa-search text-xl"></i>
-                    </button>
+<body class="font-inter bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 transition-colors duration-300">
+    <div class="flex min-h-screen">
+        <!-- 侧边栏导航 -->
+        <aside class="sidebar w-64 bg-white dark:bg-neutral-900 shadow-lg fixed h-full z-30 transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out">
+            <!-- <div class="sidebar-header p-6 border-b border-neutral-200 dark:border-neutral-700"> -->
+            <div class="sidebar-header p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <!-- <h1 class="text-2xl font-bold text-primary">极简导航</h1> -->
                 </div>
             </div>
-        </div>
+            
+            <nav class="sidebar-nav overflow-y-auto scrollbar-hide p-4">
+                <ul id="sidebar-nav-list" class="space-y-1"></ul>
+            </nav>
+        </aside>
         
-        <!-- 网站分类容器 -->
-        <div id="categories-container">
-            <!-- 分类内容将通过JS动态生成 -->
-        </div>
+        <!-- 移动端遮罩层 -->
+        <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-20 hidden active"></div>
         
-        <!-- 全局无结果提示 -->
-        <div id="no-results" class="no-results hidden">
-            <div class="empty-state-icon">
-                <i class="fa-solid fa-search text-4xl text-gray-400 dark:text-gray-600"></i>
-            </div>
-            <p class="empty-state-text text-xl text-gray-600 dark:text-gray-400 mt-4">没有找到匹配的网站</p>
-        </div>
-    </main>
-
-    <!-- 页脚 -->
-    <footer class="bg-gray-900 text-white py-8 mt-12 md:ml-64 dark:bg-gray-800">
-        <div class="container mx-auto px-4">
-            <div class="text-center">
-                <p class="mb-4">© 2025 极简导航 - 让上网更简单</p>
-                <div class="flex justify-center space-x-4">
-                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
-                        <i class="fa-brands fa-github text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
-                        <i class="fa-brands fa-twitter text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
-                        <i class="fa-brands fa-linkedin text-xl"></i>
-                    </a>
+        <!-- 主内容区 -->
+        <main class="flex-1 md:ml-64 transition-all duration-300">
+            <!-- 顶部导航 -->
+            <header class="header sticky top-0 z-10 bg-white/90 dark:bg-neutral-900/90 backdrop-blur shadow-sm transition-all duration-300">
+                <div class="container mx-auto px-4 py-6">
+                    <div class="mobile-header flex items-center justify-between mb-6 md:hidden">
+                        <button id="mobile-menu-button" class="p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-colors">
+                            <i class="fa-solid fa-bars text-xl"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- 搜索栏 -->
+                    <div class="search-container relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 dark:from-primary/5 dark:to-secondary/5 rounded-2xl blur-lg -z-10 transform scale-105"></div>
+                        <div class="absolute inset-0 bg-[url('https://picsum.photos/1200/400')] bg-cover bg-center opacity-10 dark:opacity-5 rounded-2xl -z-10"></div>
+                        <input 
+                            type="text" 
+                            id="search-input" 
+                            class="search-input bg-white/80 dark:bg-neutral-800/80 backdrop-blur"
+                            placeholder="搜点什么"
+                        >
+                        <button id="search-button" class="search-button">
+                            <i class="fa-solid fa-search text-xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- 内容区域 -->
+            <div class="container mx-auto px-4 py-8">
+                <!-- 分类内容 -->
+                <div id="categories-container"></div>
+                
+                <!-- 无结果提示 -->
+                <div id="no-results" class="no-results hidden">
+                    <div class="empty-state-icon">
+                        <i class="fa-solid fa-search"></i>
+                    </div>
+                    <p class="empty-state-text">
+                        没有找到与"<span id="search-query" class="font-semibold text-primary"></span>"相关的结果
+                    </p>
+                    <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">
+                        请尝试使用其他关键词或检查拼写
+                    </p>
                 </div>
             </div>
-        </div>
-    </footer>
-
-    <!-- 浮动按钮 -->
-    <div class="fixed bottom-6 right-6 z-40 flex flex-col items-end space-y-3">
-        <!-- 深色模式切换按钮 -->
-        <button id="theme-toggle" class="bg-primary hover:bg-primary/90 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 transform hover:scale-110">
-            <i class="fa-solid fa-moon text-xl"></i>
+            
+            <!-- 页脚 -->
+            <footer class="footer py-6">
+                <div class="container mx-auto px-4">
+                    <div class="flex justify-center items-center">
+                        <a href="https://github.com/lislond" target="_blank" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
+                            <i class="fa-brands fa-github text-xl mr-2"></i>
+                            <span>Created by Lisond and Doubao</span>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        
+        <!-- 回到顶部按钮 -->
+        <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary text-white rounded-full p-3 shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary/90">
+            <i class="fa-solid fa-arrow-up"></i>
         </button>
         
-        <!-- GitHub跳转按钮 -->
-        <a href="https://github.com" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 transform hover:scale-110">
-            <i class="fa-brands fa-github text-xl"></i>
-        </a>
+        <!-- 主题切换按钮 -->
+        <button id="theme-toggle" class="fixed bottom-20 right-6 bg-white dark:bg-neutral-900 text-primary dark:text-secondary rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110">
+            <i id="theme-icon" class="fa-solid fa-moon text-xl"></i>
+        </button>
     </div>
-
+    
     <script src="assets/js/app.js"></script>
 </body>
 </html>    
