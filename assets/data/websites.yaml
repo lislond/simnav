@@ -176,10 +176,6 @@
       url: https://www.coolexe.com/
       icon: /assets/data/logos/www.coolexe.com.png
       description: 阿酷杂货铺 - 优质互联网资源分享
-    - name: 小张不咕咕-最后一片净土
-      url: https://rjjjh.com/#/
-      icon: /
-      description: 小张不咕咕-最后一片净土
   - name: 常用软件（官网）
     websites:
     - name: WizTree - The Fastest Disk Space Analyzer
@@ -210,10 +206,6 @@
       url: https://otp.landian.vip/zh-cn/
       icon: https://otp.landian.vip/favicon.ico
       description: Office Tool Plus 官方网站 - 一键部署 Office
-    - name: Typora — a markdown editor, markdown reader.
-      url: https://www.typora.io/
-      icon: https://www.typora.io/img/favicon-128.png
-      description: Typora — a markdown editor, markdown reader.
     - name: ToastFish
       url: https://lab.magiconch.com/toast-fish/
       icon: https://lab.magiconch.com/toast-fish/favicon.ico
@@ -286,15 +278,15 @@
     websites:
     - name: flysheep资源避难所-一个免费的二次元风格下载站
       url: https://www.flysheep6.com/
-      icon: link
+      icon: /assets/data/logos/www.flysheep6.com.png
       description: flysheep资源避难所-一个免费的二次元风格下载站
     - name: Switch520
       url: https://www.gamer520.com/
-      icon: link
+      icon: /assets/data/logos/xxxxx520.com.png
       description: Switch520
-    - name: Switch520 永久防迷路
+    - name: Switch520
       url: https://sway.cloud.microsoft/1zyVegf0n3cHdR8o
-      icon: link
+      icon: /assets/data/logos/xxxxx520.com.png
       description: Switch520 永久防迷路
     - name: 老男人游戏网 | OldmanTVG.net
       url: https://www.oldmantvg.net/
@@ -302,7 +294,7 @@
       description: 老男人游戏网 | OldmanTVG.net
     - name: 小霸王，其乐无穷 。红白机，FC在线游戏，街机游戏，街机在线，NES games，NES games online，Super Mario
       url: https://www.yikm.net/
-      icon: https://www.yikm.net/f.png
+      icon: /assets/data/logos/www.yikm.net.png
       description: 小霸王，其乐无穷 。红白机，FC在线游戏，街机游戏，街机在线，NES games，NES games online，Super
         Mario
     - name: 单机游戏_单机游戏下载_单机游戏大全中文版下载_3DM游戏网
@@ -311,7 +303,7 @@
       description: 单机游戏_单机游戏下载_单机游戏大全中文版下载_3DM游戏网
     - name: flysheep – 资源避难所
       url: http://www.flysheep6.com/
-      icon: link
+      icon: /assets/data/logos/www.flysheep6.com.png
       description: flysheep – 资源避难所
     - name: FitGirl Repacks - The ONLY official site for FitGirl Repacks. Every single
         FG repack installer has a link inside, which leads here. Do not fall for fake
@@ -323,24 +315,12 @@
         for fake and scam sites, which are using my name.
     - name: GameStarfield | 游戏星空
       url: https://gamestarfield.com/
-      icon: link
+      icon: /assets/data/logos/gamestarfield.com.png
       description: GameStarfield | 游戏星空
-    - name: 小叽资源 - Free Share
-      url: https://steamzg.com/
-      icon: https://steamzg.com/wp-content/uploads/2021/10/cropped-hdpeb22e763-3cf4-41cc-a506-2179d40f2330-10886022-192x192.webp
-      description: 小叽资源 - Free Share
     - name: 通过 torrent 免费下载 PC 上的游戏 [最新 2024]
       url: https://thebyrut.org/
       icon: link
       description: 通过 torrent 免费下载 PC 上的游戏 [最新 2024]
-    - name: KAGURA FAN – 如果看不到最新游戏的补丁请刷新网页
-      url: https://kagurafan.com/
-      icon: link
-      description: KAGURA FAN – 如果看不到最新游戏的补丁请刷新网页
-    - name: 小张不咕咕-最后一片净土-软件资源分享站
-      url: https://www.rjjjh.com/#/
-      icon: link
-      description: 小张不咕咕-最后一片净土-软件资源分享站
     - name: 奥德彪计划
       url: https://2468c.com/
       icon: https://ig.2468c.com/2024/05/19/3638fa74f4917.png
@@ -385,18 +365,6 @@
       url: https://ttdownloader.com/
       icon: https://ttdownloader.com/assets/img/favicons/favicon-32x32.png
       description: TikTok Downloader, No Watermark Video Downloader For TikTok
-    - name: (3 封私信 / 83 条消息) 美剧星球怎么了？ - 知乎
-      url: https://www.zhihu.com/question/386522106
-      icon: link
-      description: (3 封私信 / 83 条消息) 美剧星球怎么了？ - 知乎
-    - name: Xslist.org - 健康的宅男偶像专题网站
-      url: https://xslist.org/zh
-      icon: link
-      description: Xslist.org - 健康的宅男偶像专题网站
-    - name: Anime Scene Search Engine - trace.moe
-      url: https://trace.moe/
-      icon: https://trace.moe/favicon128.png
-      description: Anime Scene Search Engine - trace.moe
   - name: 影视
     websites:
     - name: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
