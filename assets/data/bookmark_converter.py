@@ -3,13 +3,14 @@ import sys
 import yaml
 import os
 import argparse
+import time
 from urllib.parse import urlparse, urljoin
 import requests
 from requests.exceptions import Timeout, ConnectionError
 from bs4 import BeautifulSoup
 import socket
 import concurrent.futures
-import time
+from pathlib import Path
 
 def check_dependencies():
     """检查并安装必要的依赖库"""
@@ -37,26 +38,62 @@ def check_dependencies():
         sys.exit(1)
 
 def get_domain(url):
+    """提取URL中的域名部分"""
     try:
         return urlparse(url).netloc
     except:
         return None
 
-def extract_icon(url):
+def download_favicon(url, output_path):
+    """下载图标到本地文件"""
+    try:
+        response = requests.get(url, timeout=5)
+        if response.status_code == 200:
+            with open(output_path, 'wb') as f:
+                f.write(response.content)
+            return True
+        else:
+            print(f"下载失败，状态码: {response.status_code}")
+            return False
+    except Exception as e:
+        print(f"下载图标时出错: {e}")
+        return False
+
+def extract_icon(url, output_dir="assets/logos"):
     """
     智能提取网站图标，按以下优先级尝试：
-    1. HTML中定义的较大尺寸图标
-    2. 标准favicon.ico
-    3. Google图标服务
-    4. 域名映射的默认图标
+    1. 标准favicon.ico
+    2. HTML中定义的图标标签
+    3. 第三方图标服务
     """
     domain = get_domain(url)
     if not domain:
         return "link"
     
-    # 1. 尝试从HTML中提取高质量图标
+    # 创建输出目录
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, f"{domain}.png")
+    
+    # 1. 尝试标准favicon.ico
+    print(f"尝试获取 {domain} 的标准favicon.ico...")
+    icon_url = f"https://{domain}/favicon.ico"
     try:
-        response = requests.get(url, timeout=3)
+        response = requests.head(icon_url, timeout=3)
+        if response.status_code == 200:
+            # 检查文件大小
+            content_length = response.headers.get('Content-Length')
+            if content_length and int(content_length) > 1024:  # 大于1KB
+                print(f"找到标准favicon.ico，开始下载...")
+                if download_favicon(icon_url, output_file):
+                    print(f"图标已保存到: {output_file}")
+                    return f"assets/logos/{domain}.png"
+    except Exception as e:
+        print(f"获取标准favicon.ico失败: {e}")
+    
+    # 2. 尝试从HTML中提取图标
+    print(f"尝试从 {url} 的HTML中提取图标...")
+    try:
+        response = requests.get(url, timeout=5)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             
@@ -95,40 +132,24 @@ def extract_icon(url):
                 icon_candidates.sort(key=lambda x: x[1], reverse=True)
                 best_icon = icon_candidates[0][0]
                 
-                # 验证图标有效性
-                try:
-                    icon_resp = requests.head(best_icon, timeout=2)
-                    if icon_resp.status_code == 200:
-                        return best_icon
-                except:
-                    pass
+                print(f"从HTML中找到图标: {best_icon}，开始下载...")
+                if download_favicon(best_icon, output_file):
+                    print(f"图标已保存到: {output_file}")
+                    return f"assets/logos/{domain}.png"
     
     except (Timeout, ConnectionError, socket.gaierror, Exception) as e:
-        print(f"警告：获取 {url} 的HTML图标时出错: {e}")
-        pass
+        print(f"从HTML中获取图标失败: {e}")
     
-    # 2. 尝试标准favicon.ico
-    icon_url = f"https://{domain}/favicon.ico"
+    # 3. 使用第三方图标服务
+    print(f"使用第三方服务获取 {domain} 的图标...")
+    third_party_api = f"https://api.iowen.cn/favicon/{domain}.png"
     try:
-        response = requests.head(icon_url, timeout=2)
-        if response.status_code == 200:
-            # 检查文件大小，过小的可能是低质量图标
-            content_length = response.headers.get('Content-Length')
-            if content_length and int(content_length) > 1024:  # 大于1KB
-                return icon_url
+        print(f"从 {third_party_api} 下载图标...")
+        if download_favicon(third_party_api, output_file):
+            print(f"图标已保存到: {output_file}")
+            return f"assets/logos/{domain}.png"
     except Exception as e:
-        print(f"警告：获取 {url} 的favicon.ico时出错: {e}")
-        pass
-    
-    # 3. 使用Google图标服务作为后备
-    try:
-        google_icon = f"https://www.google.com/s2/favicons?sz=64&domain={domain}"
-        response = requests.head(google_icon, timeout=2)
-        if response.status_code == 200:
-            return google_icon
-    except Exception as e:
-        print(f"警告：使用Google服务获取 {url} 的图标时出错: {e}")
-        pass
+        print(f"使用第三方服务获取图标失败: {e}")
     
     # 4. 域名映射的默认图标
     domain_parts = domain.split('.')
@@ -160,6 +181,7 @@ def extract_icon(url):
             return 'linkedin'
     
     # 5. 默认回退图标
+    print(f"未能获取 {domain} 的图标，使用默认图标")
     return "link"
 
 def parse_chrome_bookmarks(html_content):
@@ -290,7 +312,7 @@ def parse_chrome_bookmarks(html_content):
     
     return list(categories.values())
 
-def fetch_icons_concurrently(yaml_data, max_workers=10):
+def fetch_icons_concurrently(yaml_data, output_dir="assets/logos", max_workers=10):
     """使用线程池并发获取网站图标"""
     websites = []
     
@@ -311,12 +333,17 @@ def fetch_icons_concurrently(yaml_data, max_workers=10):
     if not websites:
         return
     
+    # 创建输出目录
+    os.makedirs(output_dir, exist_ok=True)
+    
     # 使用线程池并发获取图标
     start_time = time.time()
     processed = 0
+    successes = 0
+    failures = 0
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_website = {executor.submit(extract_icon, website['url']): website for website in websites}
+        future_to_website = {executor.submit(extract_icon, website['url'], output_dir): website for website in websites}
         
         for future in concurrent.futures.as_completed(future_to_website):
             website = future_to_website[future]
@@ -324,6 +351,13 @@ def fetch_icons_concurrently(yaml_data, max_workers=10):
                 icon = future.result()
                 website['icon'] = icon
                 processed += 1
+                
+                if icon.startswith("assets/logos/") or icon != "link":
+                    successes += 1
+                    status = "✅"
+                else:
+                    failures += 1
+                    status = "❌"
                 
                 # 显示进度条
                 progress = processed / total
@@ -333,13 +367,27 @@ def fetch_icons_concurrently(yaml_data, max_workers=10):
                 elapsed = time.time() - start_time
                 eta = (elapsed / processed * (total - processed)) if processed > 0 else 0
                 
-                print(f"\r进度: [{bar}] {progress:.1%} | 已处理: {processed}/{total} | 用时: {elapsed:.1f}s | 预计剩余: {eta:.1f}s", end='')
+                print(f"\r{status} 进度: [{bar}] {progress:.1%} | 已处理: {processed}/{total} | 成功: {successes} | 失败: {failures} | 用时: {elapsed:.1f}s | 预计剩余: {eta:.1f}s", end='')
                 
             except Exception as e:
-                print(f"\n错误：获取 {website['url']} 的图标时出错: {e}")
+                processed += 1
+                failures += 1
                 website['icon'] = "link"  # 默认图标
+                
+                # 显示进度条
+                progress = processed / total
+                bar_length = 50
+                filled_length = int(bar_length * progress)
+                bar = '█' * filled_length + '-' * (bar_length - filled_length)
+                elapsed = time.time() - start_time
+                eta = (elapsed / processed * (total - processed)) if processed > 0 else 0
+                
+                print(f"\r❌ 进度: [{bar}] {progress:.1%} | 已处理: {processed}/{total} | 成功: {successes} | 失败: {failures} | 用时: {elapsed:.1f}s | 预计剩余: {eta:.1f}s", end='')
     
     print(f"\n图标获取完成，总耗时 {time.time() - start_time:.2f} 秒")
+    print(f"成功获取: {successes}/{total} ({successes/total*100:.1f}%)")
+    print(f"使用默认图标: {failures}/{total} ({failures/total*100:.1f}%)")
+    print(f"图标保存目录: {os.path.abspath(output_dir)}")
 
 def convert_bookmark_to_yaml(input_file, output_file):
     print(f"开始处理: {input_file}")
@@ -392,7 +440,10 @@ def convert_bookmark_to_yaml(input_file, output_file):
     
     # 获取图标
     if total_websites > 0:
-        fetch_icons_concurrently(yaml_data)
+        # 确保assets/logos目录存在于输出文件同级目录
+        output_parent = os.path.dirname(output_file)
+        logos_dir = os.path.join(output_parent, "assets/logos")
+        fetch_icons_concurrently(yaml_data, logos_dir)
     else:
         print("没有找到网站，跳过图标获取")
     
@@ -410,8 +461,8 @@ def convert_bookmark_to_yaml(input_file, output_file):
     print(f"处理统计:")
     print(f"  分类数: {len(yaml_data)}")
     print(f"  网站总数: {total_websites}")
-    print(f"  成功获取图标: {sum(1 for c in yaml_data for s in c.get('sections', []) for w in s.get('websites', []) if w['icon'] != 'link')}")
-    print(f"  使用默认图标: {sum(1 for c in yaml_data for s in c.get('sections', []) for w in s.get('websites', []) if w['icon'] == 'link')}")
+    print(f"  成功获取图标: {sum(1 for c in yaml_data for s in c.get('sections', []) for w in s.get('websites', []) if w['icon'].startswith('assets/logos/'))}")
+    print(f"  使用默认图标: {sum(1 for c in yaml_data for s in c.get('sections', []) for w in s.get('websites', []) if not w['icon'].startswith('assets/logos/'))}")
 
 if __name__ == "__main__":
     # 检查依赖

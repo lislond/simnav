@@ -177,7 +177,7 @@ const contentRenderer = {
                         src="${website.icon}" 
                         alt="${website.name}" 
                         class="max-w-full max-h-full object-contain transition-transform"  /* 所有样式通过类名定义 */
-                        onerror="this.src='/fallback-icon.png'" 
+                        onerror="this.src='/assets/data/images/fallback-icon.png'; this.onerror=null"
                         />
             </div>
                 <h3 class="website-title font-medium text-neutral-800 dark:text-neutral-200">${website.name}</h3>
