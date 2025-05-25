@@ -7,53 +7,53 @@
     - name: 异次元软件世界
       url: https://www.iplaysoft.com/
       icon: /assets/data/logos/www.iplaysoft.com.png
-      description: 异次元软件世界 - 软件改变生活！
+      description: 软件改变生活！
     - name: 小众软件
       url: https://www.appinn.com/
       icon: https://www.appinn.com/favicon.ico
-      description: 小众软件 - 分享免费、小巧、实用、有趣、绿色的软件
-    - name: 腾讯柠檬精选——收录免费、正版、好用的Mac应用及产品
+      description: 分享免费、小巧、实用、有趣、绿色的软件
+    - name: 腾讯柠檬精选
       url: https://lemon.qq.com/lab/
       icon: /assets/data/logos/lemon.qq.com.png
-      description: 腾讯柠檬精选——收录免费、正版、好用的Mac应用及产品
-    - name: 奔跑中的奶酪 - 有智，有趣，有爱
+      description: 收录免费、正版、好用的Mac应用及产品
+    - name: 奔跑中的奶酪
       url: https://www.runningcheese.com/
       icon: https://www.runningcheese.com/favicon.ico
-      description: 奔跑中的奶酪 - 有智，有趣，有爱
-    - name: 音速装机 - 群狼动力
+      description: 有智，有趣，有爱
+    - name: 音速装机
       url: https://sonic.volf.club/###
       icon: https://cdn.jsdelivr.net/gh/volfclub/tundra-sonic/assets/images/favicon.png
       description: 音速装机 - 群狼动力
   - name: Windows软件
     websites:
-    - name: pc6下载站-官方软件下载基地-安全、高速、放心的下载网站！
+    - name: pc6下载站
       url: https://www.pc6.com/
       icon: https://www.pc6.com/favicon.ico
-      description: pc6下载站-官方软件下载基地-安全、高速、放心的下载网站！
+      description: 官方软件下载基地-安全、高速、放心的下载网站！
     - name: 六音
       url: https://www.6yit.com/
       icon: https://www.sixyin.com/wp-content/uploads/2020/07/1595643570-favicon.png
       description: 六音
-    - name: 佛系软件 - 精品Windows,macOS破解软件下载
+    - name: 佛系软件
       url: https://foxirj.com/
       icon: https://foxirj.com/favicon.ico
-      description: 佛系软件 - 精品Windows,macOS破解软件下载
-    - name: 软仓 | RuanCang.Net
+      description: 精品Windows,macOS破解软件下载
+    - name: 软仓
       url: https://www.ruancang.net/
       icon: https://www.ruancang.net/wp-content/uploads/attachment/2025/04/20250428035000_cang-yuan-512.png
-      description: 软仓 | RuanCang.Net
-    - name: WinWk - 精品windows软件下载
+      description: 软仓
+    - name: WinWk
       url: https://www.winwk.com/
       icon: https://www.winwk.com/favicon-32x32.ico
-      description: WinWk - 精品windows软件下载
-    - name: 大眼仔旭 - 专注开源软件、视频剪辑、免费商用字体、屏幕录像工具、思维导图等办公资源分享
+      description: 精品windows软件下载
+    - name: 大眼仔旭
       url: https://www.dayanzai.me/
       icon: assets/data/logos/www.dayanzai.me.png
-      description: 大眼仔旭 - 专注开源软件、视频剪辑、免费商用字体、屏幕录像工具、思维导图等办公资源分享
-    - name: 懒得勤快的博客_互联网分享精神
+      description: 专注开源软件、视频剪辑、免费商用字体、屏幕录像工具、思维导图等办公资源分享
+    - name: 懒得勤快
       url: https://masuit.net/
       icon: /assets/data/logos/masuit.net.png
-      description: 首页_懒得勤快的博客_互联网分享精神
+      description: 懒得勤快的博客_互联网分享精神
     - name: 反斗软件
       url: https://www.apprcn.com/
       icon: https://www.apprcn.com/favicon.ico
@@ -62,19 +62,19 @@
       url: http://www.qiuquan.cc/
       icon: /assets/data/logos/www.qiuquan.cc.png
       description: 精品软件分享博客，专注于软件的绿化、精简与优化。
-    - name: th-sjy.com
+    - name: th-sjy
       url: http://www.th-sjy.com/
       icon: /assets/data/logos/www.th-sjy.com.png
       description: th-sjy.com
-    - name: 墨涩网 - 孙威虎的个人网站❤酷爱科技，痴迷网络！
+    - name: 墨涩网
       url: https://www.sunweihu.com/
       icon: https://www.sunweihu.com/favicon.ico
-      description: 墨涩网 - 孙威虎的个人网站❤酷爱科技，痴迷网络！
-    - name: 老殁 - 殁漂遥 - 分享好软件 - MpyIT.com，LaomoIT.com，KuiIT.com，Acold.xyz
+      description: 孙威虎的个人网站❤酷爱科技，痴迷网络！
+    - name: 老殁 - 殁漂遥
       url: https://www.mpyit.com/
       icon: https://www.mpyit.com/favicon.ico
-      description: 老殁 - 殁漂遥 - 分享好软件 - MpyIT.com，LaomoIT.com，KuiIT.com，Acold.xyz
-    - name: 应用软件 - 盒子部落
+      description: 分享好软件 - MpyIT.com，LaomoIT.com，KuiIT.com，Acold.xyz
+    - name: 盒子部落
       url: https://www.hezibuluo.com/app
       icon: /assets/data/logos/www.hezibuluo.com.png
       description: 应用软件 - 盒子部落
@@ -82,212 +82,208 @@
       url: https://www.wgbqr.com/
       icon: /assets/data/logos/www.wgbqr.com.png
       description: 歪果不求仁
-    - name: 落尘之木-TO BE THE BEST!
+    - name: 落尘之木
       url: https://www.luochenzhimu.com/
       icon: /assets/data/logos/www.luochenzhimu.com.png
-      description: 落尘之木-TO BE THE BEST!
-    - name: RuTracker.org
+      description: TO BE THE BEST!
+    - name: RuTracker
       url: http://rutracker.org/forum/index.php
       icon: /assets/data/logos/rutracker.org.png
       description: RuTracker.org
-    - name: 适用于 Windows XP、7、8、10、11 的 PC 程序可免费下载
+    - name: PC 程序免费下载
       url: https://1soft.space/zh-CN/
       icon: /assets/data/logos/1soft.space.png
       description: 适用于 Windows XP、7、8、10、11 的 PC 程序可免费下载
-    - name: Windows 软件商店 / 装机必备 - 小羿
+    - name: Windows 软件商店
       url: https://xiaoyi.vc/win-app
       icon: /assets/data/logos/xiaoyi.vc.png
       description: Windows 软件商店 / 装机必备 - 小羿
   - name: Mac软件
     websites:
-    - name: MacWk - 精品mac软件下载
+    - name: MacWk
       url: http://macwk.com/
       icon: /assets/data/logos/macwk.com.png
       description: MacWk - 精品mac软件下载
-    - name: surge | MacKed - 专注于mac软件分享与下载
+    - name: MacKed
       url: https://macked.app/?s=surge&type=post
       icon: /assets/data/logos/macked.app.png
       description: surge | MacKed - 专注于mac软件分享与下载
   - name: Android软件
     websites:
-    - name: 异星软件空间 | 感受不一样的精彩体验！您的异星应用库！
+    - name: 异星软件空间
       url: https://www.yxssp.com/
       icon: /assets/data/logos/www.yxssp.com.png
-      description: 异星软件空间 | 感受不一样的精彩体验！您的异星应用库！
-    - name: 乐享网-乐于分享，收获快乐！
+      description: 感受不一样的精彩体验！您的异星应用库！
+    - name: 乐享网
       url: https://www.lxapk.com/
       icon: https://www.lxapk.com/favicon.ico
-      description: 乐享网-乐于分享，收获快乐！
-    - name: 在APKPure使用免费在线APK下载器下载APK到安卓
+      description: 乐于分享，收获快乐！
+    - name: APKPure
       url: https://apkpure.com/cn/
       icon: /assets/data/logos/apkpure.com.png
       description: 在APKPure使用免费在线APK下载器下载APK到安卓
-    - name: '⚡ APKCombo - #1 APK Downloader'
+    - name: APKCombo 
       url: https://apkcombo.com/
       icon: /assets/data/logos/apkcombo.com.png
       description: '⚡ APKCombo - #1 APK Downloader'
-    - name: Download Mod Apk Games &amp; Apps Android | DlAndroid
+    - name: DlAndroid
       url: https://dlandroid.com/
       icon: /assets/data/logos/dlandroid.com.png
-      description: Download Mod Apk Games &amp; Apps Android | DlAndroid
-    - name: ReleaseAPK - Home
+      description: Download Mod Apk Games &amp; Apps Android
+    - name: ReleaseAPK
       url: https://forum.release-apk.com/
       icon: /assets/data/logos/forum.release-apk.com.png
-      description: ReleaseAPK - Home
-    - name: F-Droid - Free and Open Source Android App Repository
+      description: ReleaseAPK
+    - name: F-Droid
       url: https://f-droid.org/
       icon: /assets/data/logos/f-droid.org.png
-      description: F-Droid - Free and Open Source Android App Repository
-    - name: REXDL - Download MOD APK Games Premium Android
+      description: Free and Open Source Android App Repository
+    - name: REXDL
       url: https://rexdl.com/
       icon: /assets/data/logos/rexdl.com.png
-      description: REXDL - Download MOD APK Games Premium Android
-    - name: APKMB.Com – Best Site for Download MOD APK &amp; Games Android
+      description: Download MOD APK Games Premium Android
+    - name: APKMB.Com
       url: https://apkmb.com/
       icon: /assets/data/logos/apkmb.com.png
-      description: APKMB.Com – Best Site for Download MOD APK &amp; Games Android
-    - name: Apk-mod.net - Бесплатные игры и программы
+      description: Best Site for Download MOD APK &amp; Games Android
+    - name: Apk-mod.net
       url: https://apk-mod.net/
       icon: /assets/data/logos/apk-mod.net.png
-      description: Apk-mod.net - Бесплатные игры и программы
+      description: Бесплатные игры и программы
     - name: 云梦
       url: https://www.htcp.net/
       icon: https://www.htcp.net/favicon.ico
       description: 云梦
-    - name: 蓝鲨应用库 - 让您在互联网的海洋里自由的遨游！属于您的蓝鲨软件空间！
+    - name: 蓝鲨应用库
       url: https://www.lsapk.com/
       icon: https://www.lsapk.com/wp-content/uploads/2023/04/400.png
-      description: 蓝鲨应用库 - 让您在互联网的海洋里自由的遨游！属于您的蓝鲨软件空间！
+      description: 让您在互联网的海洋里自由的遨游！属于您的蓝鲨软件空间！
   - name: 多平台
     websites:
     - name: 423Down
       url: https://www.423down.com/
       icon: https://www.423down.com/favicon.ico
       description: 423Down
-    - name: 果核剥壳 - 还原软件的本质
+    - name: 果核剥壳 
       url: https://www.ghxi.com/
       icon: https://www.ghxi.com/favicon.ico
-      description: 果核剥壳 - 还原软件的本质
-    - name: 购印资源网 - 专注于免费提供最新的技术分享
+      description: 还原软件的本质
+    - name: 购印资源网
       url: https://blog.gouyin.net/
       icon: /assets/data/logos/blog.gouyin.net.png
-      description: 购印资源网 - 专注于免费提供最新的技术分享
-    - name: 阿酷杂货铺 - 优质互联网资源分享
+      description: 专注于免费提供最新的技术分享
+    - name: 阿酷杂货铺
       url: https://www.coolexe.com/
       icon: /assets/data/logos/www.coolexe.com.png
-      description: 阿酷杂货铺 - 优质互联网资源分享
-    - name: 小张不咕咕-最后一片净土
+      description: 优质互联网资源分享
+    - name: 小张不咕咕
       url: https://rjjjh.com/#/
       icon: /
       description: 小张不咕咕-最后一片净土
   - name: 常用软件（官网）
     websites:
-    - name: WizTree - The Fastest Disk Space Analyzer
+    - name: WizTree
       url: https://www.diskanalyzer.com/
       icon: https://www.diskanalyzer.com/favicon-32x32.png
-      description: WizTree - The Fastest Disk Space Analyzer
+      description: 好用的Windows磁盘分析工具
     - name: Typora 官方中文站
       url: https://typoraio.cn/
       icon: https://typoraio.cn/img/favicon-128.png
-      description: Typora 官方中文站
-    - name: XSHELL - NetSarang Website
+      description: 一款好用的 Markdown 编辑器和阅读器
+    - name: XSHELL
       url: https://www.xshell.com/zh/xshell/
       icon: https://www.xshell.com/wp-content/uploads/2018/12/favicon.ico
-      description: XSHELL - NetSarang Website
-    - name: 图压 - 简单易用的图片压缩软件
+      description: 强大的ssh工具
+    - name: 图压
       url: https://tuya.xinxiao.tech/
       icon: /assets/data/logos/tuya.xinxiao.tech.png
-      description: 图压 - 简单易用的图片压缩软件
+      description: 简单易用的图片压缩软件
     - name: IconViewer
       url: https://www.botproductions.com/iconview/iconview.html
       icon: https://www.botproductions.com/favicon.ico
       description: IconViewer
-    - name: Listary – Free File Search Tool &amp; App Launcher
+    - name: Listary
       url: https://www.listary.com/
       icon: https://cdn.prod.website-files.com/643e09c9f19df8579c420d9f/64ec15d75eb38b96eb59ffe3_Listary-favicon.png
-      description: Listary – Free File Search Tool &amp; App Launcher
-    - name: Office Tool Plus 官方网站 - 一键部署 Office
+      description: Win平台最好用的搜索工具
+    - name: Office Tool Plus
       url: https://otp.landian.vip/zh-cn/
       icon: https://otp.landian.vip/favicon.ico
-      description: Office Tool Plus 官方网站 - 一键部署 Office
-    - name: Typora — a markdown editor, markdown reader.
-      url: https://www.typora.io/
-      icon: https://www.typora.io/img/favicon-128.png
-      description: Typora — a markdown editor, markdown reader.
+      description: 一键部署 Office
     - name: ToastFish
       url: https://lab.magiconch.com/toast-fish/
       icon: https://lab.magiconch.com/toast-fish/favicon.ico
       description: ToastFish
-    - name: 壁纸_微软高清壁纸_电脑壁纸_ 必应壁纸-【微软桌面壁纸】
+    - name: 微软桌面壁纸
       url: https://lockscreen.chinacloudsites.cn/
       icon: https://lockscreen.chinacloudsites.cn/assets/favicon.ico
-      description: 壁纸_微软高清壁纸_电脑壁纸_ 必应壁纸-【微软桌面壁纸】
-    - name: Zotero 中文小组 | Zotero 中文小组
+      description: 壁纸_微软高清壁纸_电脑壁纸_ 必应壁纸
+    - name: Zotero 中文小组 
       url: https://zotero-chinese.com/
       icon: https://zotero-chinese.com/logo.png
-      description: Zotero 中文小组 | Zotero 中文小组
-    - name: Internet Download Manager 6.42.3 (Repack) » Авторские репаки от ELCHUPACABRA
+      description: Zotero 中文小组
+    - name: Internet Download Manager (Repack) 
         - REPACK скачать
       url: https://lrepacks.net/repaki-programm-dlya-interneta/56-internet-download-manager-repack.html
       icon: https://lrepacks.net/templates/biz-ideas/images/favicon-32x32.png
       description: Internet Download Manager 6.42.3 (Repack) » Авторские репаки от
         ELCHUPACABRA - REPACK скачать
-    - name: ImageGlass - A lightweight, versatile image viewer
+    - name: ImageGlass
       url: https://imageglass.org/
       icon: https://imageglass.org/img/icons/favicon-32x32.png
       description: ImageGlass - A lightweight, versatile image viewer
-    - name: WPD | Privacy dashboard for Windows
+    - name: WPD
       url: https://wpd.app/
       icon: https://wpd.app/assets/favicon/favicon-32x32.png?v=rMloNemQaB
       description: WPD | Privacy dashboard for Windows
   - name: 驱动
     websites:
-    - name: 官方 GeForce 驱动程序 | NVIDIA
+    - name: NVIDIA驱动程序
       url: https://www.nvidia.cn/geforce/drivers/
       icon: https://www.nvidia.cn/favicon.ico
-      description: 官方 GeForce 驱动程序 | NVIDIA
-    - name: 下载英特尔® 驱动程序和软件
+      description: 下载N卡驱动
+    - name: Intel驱动程序
       url: https://www.intel.cn/content/www/cn/zh/download-center/home.html
       icon: https://www.intel.cn/etc.clientlibs/settings/wcm/designs/intel/default/resources/favicon-32x32.png
-      description: 下载英特尔® 驱动程序和软件
-    - name: 处理器和显卡驱动程序及支持
+      description: AX系列网卡
+    - name: AMD处理器和显卡驱动程序
       url: https://www.amd.com/zh-cn/support/download/drivers.html
       icon: https://www.amd.com/content/dam/code/images/favicon/favicon.ico
       description: 处理器和显卡驱动程序及支持
-    - name: Lenovo联想售后客户服务中心,提供驱动下载,配置查询,保修服务-联想服务
+    - name: Lenovo联想
       url: https://newsupport.lenovo.com.cn/
       icon: https://www.lenovo.com.cn/favicon.ico
-      description: Lenovo联想售后客户服务中心,提供驱动下载,配置查询,保修服务-联想服务
-    - name: 下载中心 | 官方支持 | ASUS 中国
+      description: 小新、yoga、ThinkPad、ThinkBook、拯救者系列。
+    - name: ASUS华硕
       url: https://www.asus.com.cn/support/download-center/
       icon: https://www.asus.com.cn/favicon.ico
-      description: 下载中心 | 官方支持 | ASUS 中国
-    - name: 驱动程序和下载 | Dell 中国
+      description: VivoBook、ZenBook、无双、无畏、A豆、灵耀、天选、飞行堡垒、幻、魔霸、枪神、冰刃系列。
+    - name: Dell戴尔
       url: https://www.dell.com/support/home/zh-cn?app=drivers
       icon: https://www.dell.com/favicon.ico
-      description: 驱动程序和下载 | Dell 中国
-    - name: 官方 HP® 驱动程序与软件下载 | HP® 支持
+      description: 外星人、XPS、灵越、G系列。
+    - name: HP惠普
       url: https://support.hp.com/cn-zh/drivers
       icon: https://support.hp.com/wcc-assets/images/favicon.ico
-      description: 官方 HP® 驱动程序与软件下载 | HP® 支持
-    - name: 华为笔记本驱动官方下载 | 华为官网
+      description: 星、战、暗影精灵、光影精灵系列。
+    - name: Huawei华为
       url: https://consumer.huawei.com/cn/support/driver-list/
       icon: https://consumer.huawei.com/content/dam/huawei-cbg-site/common/huawei-logo.png
-      description: 华为笔记本驱动官方下载 | 华为官网
-    - name: 驱动下载
+      description: MateBook系列
+    - name: Honor荣耀
       url: https://www.honor.com/cn/support/downloads/
       icon: https://www.honor.com/etc/designs/honor-site/assets/favicon.ico
-      description: 驱动下载
-    - name: 小米帮助中心-小米商城
+      description: MagicBook系列
+    - name: Xiaomi小米
       url: https://www.mi.com/service/notebook/drivers
       icon: https://s01.mifile.cn/favicon.ico
-      description: 小米帮助中心-小米商城
+      description: RedmiBook、XiaomiBook系列
   - name: 游戏
     websites:
-    - name: flysheep资源避难所-一个免费的二次元风格下载站
+    - name: flysheep资源避难所
       url: https://www.flysheep6.com/
       icon: link
-      description: flysheep资源避难所-一个免费的二次元风格下载站
+      description: 一个免费的二次元风格下载站
     - name: Switch520
       url: https://www.gamer520.com/
       icon: link
@@ -296,48 +292,45 @@
       url: https://sway.cloud.microsoft/1zyVegf0n3cHdR8o
       icon: link
       description: Switch520 永久防迷路
-    - name: 老男人游戏网 | OldmanTVG.net
+    - name: 老男人游戏网
       url: https://www.oldmantvg.net/
       icon: https://www.oldmantvg.net/favicon.ico
       description: 老男人游戏网 | OldmanTVG.net
-    - name: 小霸王，其乐无穷 。红白机，FC在线游戏，街机游戏，街机在线，NES games，NES games online，Super Mario
+    - name: 小霸王
       url: https://www.yikm.net/
-      icon: https://www.yikm.net/f.png
+      icon: /assets/data/logos/www.yikm.net.png
       description: 小霸王，其乐无穷 。红白机，FC在线游戏，街机游戏，街机在线，NES games，NES games online，Super
         Mario
-    - name: 单机游戏_单机游戏下载_单机游戏大全中文版下载_3DM游戏网
+    - name: 3DM游戏网
       url: https://www.3dmgame.com/
       icon: https://www.3dmgame.com/favicon.ico
-      description: 单机游戏_单机游戏下载_单机游戏大全中文版下载_3DM游戏网
-    - name: flysheep – 资源避难所
+      description: 单机游戏_单机游戏下载_单机游戏大全中文版下载
+    - name: flysheep
       url: http://www.flysheep6.com/
       icon: link
       description: flysheep – 资源避难所
-    - name: FitGirl Repacks - The ONLY official site for FitGirl Repacks. Every single
-        FG repack installer has a link inside, which leads here. Do not fall for fake
-        and scam sites, which are using my name.
+    - name: FitGirl Repacks
       url: https://fitgirl-repacks.site/
       icon: https://fitgirl-repacks.site/wp-content/uploads/2016/08/cropped-icon-192x192.jpg
-      description: FitGirl Repacks - The ONLY official site for FitGirl Repacks. Every
+      description: The ONLY official site for FitGirl Repacks. Every
         single FG repack installer has a link inside, which leads here. Do not fall
         for fake and scam sites, which are using my name.
     - name: GameStarfield | 游戏星空
       url: https://gamestarfield.com/
       icon: link
       description: GameStarfield | 游戏星空
-    - name: 小叽资源 - Free Share
-      url: https://steamzg.com/
-      icon: https://steamzg.com/wp-content/uploads/2021/10/cropped-hdpeb22e763-3cf4-41cc-a506-2179d40f2330-10886022-192x192.webp
+    - name: 小叽资源
+      icon: 
       description: 小叽资源 - Free Share
-    - name: 通过 torrent 免费下载 PC 上的游戏 [最新 2024]
+    - name: 通过 torrent 免费下载 PC 上的游戏
       url: https://thebyrut.org/
       icon: link
-      description: 通过 torrent 免费下载 PC 上的游戏 [最新 2024]
-    - name: KAGURA FAN – 如果看不到最新游戏的补丁请刷新网页
+      description: 通过 torrent 免费下载 PC 上的游戏
+    - name: KAGURA FAN
       url: https://kagurafan.com/
       icon: link
       description: KAGURA FAN – 如果看不到最新游戏的补丁请刷新网页
-    - name: 小张不咕咕-最后一片净土-软件资源分享站
+    - name: 小张不咕咕
       url: https://www.rjjjh.com/#/
       icon: link
       description: 小张不咕咕-最后一片净土-软件资源分享站
@@ -345,11 +338,11 @@
       url: https://2468c.com/
       icon: https://ig.2468c.com/2024/05/19/3638fa74f4917.png
       description: 奥德彪计划
-    - name: 非线性列车 — By. Juij 📧
+    - name: 非线性列车
       url: https://juij.fun/
       icon: https://juij.fun/favicon.ico
       description: 非线性列车 — By. Juij 📧
-    - name: 虾仔游戏-单机游戏仓库-单机游戏大全-找手机游戏上虾仔游戏
+    - name: 虾仔游戏
       url: https://xiazaing.com/
       icon: https://xiazaing.com/wp-content/uploads/2024/04/logo-300x300.png
       description: 虾仔游戏-单机游戏仓库-单机游戏大全-找手机游戏上虾仔游戏
@@ -359,21 +352,19 @@
   sections:
   - name: 下载
     websites:
-    - name: 抖音TikTok无水印下载 - 在线视频图集壁纸无水印下载解析 - 抖音无水印 - TikTok无水印 - 最新免费在线去水印解析 - Download
-        Panda - DLPanda
+    - name: DLPanda
       url: https://dlpanda.com/zh-CN
       icon: https://dlpanda.com/favicon.ico
-      description: 抖音TikTok无水印下载 - 在线视频图集壁纸无水印下载解析 - 抖音无水印 - TikTok无水印 - 最新免费在线去水印解析
-        - Download Panda - DLPanda
+      description: 抖音TikTok无水印下载
     - name: 从所有网络提取视频/图像，TikTok、Twitter、Instagram、VK视频下载
       url: https://tiqu.cc/
-      icon: https://tiqu.cc/favicon.ico
+      icon: /assets/data/logos/tiqu.cc.png
       description: 从所有网络提取视频/图像，TikTok、Twitter、Instagram、VK视频下载
-    - name: 万能视频图片解析下载 - SnapAny
+    - name: SnapAny
       url: https://snapany.com/zh
       icon: https://snapany.com/favicon.ico
       description: 万能视频图片解析下载 - SnapAny
-    - name: 免费在线视频解析下载网站 - Parsevideo.com
+    - name: Parsevideo
       url: https://pv.vlogdownloader.com/
       icon: https://pv.vlogdownloader.com/assets/addons/parsevideo/img/favicon.ico
       description: 免费在线视频解析下载网站 - Parsevideo.com
@@ -381,155 +372,125 @@
       url: https://www.runningcheese.com/video-download
       icon: https://www.runningcheese.com/favicon.ico
       description: 包搞定，解决全网 100% 的视频下载问题！ - 奔跑中的奶酪
-    - name: TikTok Downloader, No Watermark Video Downloader For TikTok
+    - name: TikTok Downloader
       url: https://ttdownloader.com/
       icon: https://ttdownloader.com/assets/img/favicons/favicon-32x32.png
       description: TikTok Downloader, No Watermark Video Downloader For TikTok
-    - name: (3 封私信 / 83 条消息) 美剧星球怎么了？ - 知乎
-      url: https://www.zhihu.com/question/386522106
-      icon: link
-      description: (3 封私信 / 83 条消息) 美剧星球怎么了？ - 知乎
-    - name: Xslist.org - 健康的宅男偶像专题网站
-      url: https://xslist.org/zh
-      icon: link
-      description: Xslist.org - 健康的宅男偶像专题网站
-    - name: Anime Scene Search Engine - trace.moe
-      url: https://trace.moe/
-      icon: https://trace.moe/favicon128.png
-      description: Anime Scene Search Engine - trace.moe
   - name: 影视
     websites:
-    - name: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
+    - name: bilibili
       url: https://www.bilibili.com/
       icon: https://www.bilibili.com/favicon.ico
       description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
-    - name: 影视森林——观影第一站
+    - name: 影视森林
       url: https://www.549.tv/
       icon: link
       description: 影视森林——观影第一站
-    - name: 茶杯狐 - 片荒剧荒就来茶杯狐
+    - name: 茶杯狐
       url: https://cupfox.app/
       icon: https://picx.zhimg.com/80/v2-5393cb76a824b11d7771ecdce592c87d.png
       description: 茶杯狐 - 片荒剧荒就来茶杯狐
-    - name: 豌豆PRO-全网影视聚合搜索
+    - name: 豌豆PRO
       url: https://www.wandou.la/
       icon: https://www.wandou.la/_next/static/media/favicon.be803c67.ico
       description: 豌豆PRO-全网影视聚合搜索
+    - name: 橘子盘搜
+      url: https://www.nmme.one/
+      icon: https://www.nmme.one/asset/favicon.png
+      description: 好用的影视资源搜索引擎
     - name: 蛋蛋赞影院
       url: https://www.ddzvod.com/
       icon: link
-      description: 蛋蛋赞影院
-    - name: 2077影视 - 高清影视免费在线看
+      description: 🎞️
+    - name: 2077影视
       url: https://www.m2077.com/
       icon: https://www.m2077.com/favicon.png
-      description: 2077影视 - 高清影视免费在线看
-    - name: 黑猫影视-海外华人在线影院 电影在线 影视网站
-      url: https://heimaotv.vip/
+      description: 🎞️
+    - name: 黑猫影视
       icon: link
-      description: 黑猫影视-海外华人在线影院 电影在线 影视网站
-    - name: 不太灵影视_4k高清电影下载_蓝光迅雷电影下载_最新电视剧下载
-      url: https://www.2bt0.com/
+      description: 🎞️
+    - name: 不太灵影视
       icon: link
-      description: 不太灵影视_4k高清电影下载_蓝光迅雷电影下载_最新电视剧下载
-    - name: 橘子盘搜-好用的影视资源搜索引擎
-      url: https://www.nmme.one/
-      icon: https://www.nmme.one/asset/favicon.png
-      description: 橘子盘搜-好用的影视资源搜索引擎
-    - name: 网址发布页
+      description: 🎞️
+    - name: 低端影视
       url: https://ddys.love/
       icon: link
-      description: 网址发布页
-    - name: NO视频 – 不负追剧好时光 (￣▽￣)&quot;
+      description: 🎞️
+    - name: NO视频
       url: https://www.novipnoad.net/
       icon: https://www.novipnoad.net/favicon.ico
-      description: NO视频 – 不负追剧好时光 (￣▽￣)&quot;
-    - name: HDmoli - 高品质在线影视资源
+      description: 🎞️
+    - name: HDmoli
       url: https://www.hdmoli.pro/
       icon: link
-      description: HDmoli - 高品质在线影视资源
-    - name: 厂长资源官网
+      description: 🎞️
+    - name: 厂长资源
       url: https://www.czzy.site/
       icon: link
-      description: 厂长资源官网
-    - name: 地址发布
+      description: 🎞️
+    - name: 特狗影视
       url: https://www.tegouys.com/
       icon: link
-      description: 地址发布
-    - name: 大师兄影视-永久免费的福利超清影视站
+      description: 🎞️
+    - name: 大师兄影视
       url: https://dsxys.pro/
       icon: https://dsxys.pro/mxtheme/images/favicon.png
-      description: 大师兄影视-永久免费的福利超清影视站
-    - name: 哔嘀电影_哔嘀夜晚电影_电视剧_4k蓝光超清在线看告别剧荒_哔嘀影视最新网址
+      description: 🎞️
+    - name: 哔嘀影视
       url: https://fuddj.com/
       icon: https://safari.jinbianpiao.com/style1/asset/img/favicon.png
-      description: 哔嘀电影_哔嘀夜晚电影_电视剧_4k蓝光超清在线看告别剧荒_哔嘀影视最新网址
-    - name: 哔嘀影视-全网影视大全
+      description: 🎞️
+    - name: 哔嘀影视
       url: https://bidiys.cc/
       icon: /assets/data/logos/bidiys.cc.png
-      description: 哔嘀影视-全网影视大全
-    - name: 555电影_最新Netflix新剧_韩国电影免费在线观看
-      url: https://555dy.tv/
-      icon: link
-      description: 555电影_最新Netflix新剧_韩国电影免费在线观看
-    - name: 一个简单的影视搜索-7080影视搜
+      description: 🎞️
+    - name: 7080影视搜
       url: https://7080.wang/
       icon: link
-      description: 一个简单的影视搜索-7080影视搜
-    - name: 樱花动漫－专注动漫的门户网站
+      description: 一个简单的影视搜索
+    - name: 樱花动漫
       url: http://www.iyinghua.com/
       icon: http://www.iyinghua.com/js/20180601/favicon.ico
-      description: 樱花动漫－专注动漫的门户网站
-    - name: 哈哩哈哩官网_halihali_哈哩哈哩动漫
+      description: 专注动漫的门户网站
+    - name: 哈哩哈哩
       url: http://halihali.icu/
       icon: link
-      description: 哈哩哈哩官网_halihali_哈哩哈哩动漫
-    - name: Anime Garden 動漫花園資源網第三方镜像站
+      description: 哈哩哈哩动漫
+    - name: Anime Garden
       url: https://animes.garden/
       icon: https://animes.garden/favicon.ico
       description: Anime Garden 動漫花園資源網第三方镜像站
-    - name: 低端影视 - 超清在线视频站
-      url: https://ddrk.me/
-      icon: link
-      description: 低端影视 - 超清在线视频站
-    - name: SOZMZ - 人人影视分级搜索
+    - name: SOZMZ
       url: http://v.dsb.ink/#/
       icon: https://v.dsb.ink/favicon.ico
       description: SOZMZ - 人人影视分级搜索
-    - name: 奈飞工厂-一个致力于免费提供Netflix影剧动漫的流媒体播放平台–奈飞工厂 NetflixGC | NetflixGC.com
+    - name: 奈飞工厂
       url: https://www.netflixgc.com/
       icon: link
       description: 奈飞工厂-一个致力于免费提供Netflix影剧动漫的流媒体播放平台–奈飞工厂 NetflixGC | NetflixGC.com
-    - name: 555电影官网永久发布页，收藏我回家不迷路！
+    - name: 555电影
       url: https://zxdy5.top/
       icon: link
-      description: 555电影官网永久发布页，收藏我回家不迷路！
-    - name: 手机看大片,手机看电影,手机看电视,手机电影下载 - 吾的电影网
+      description: 🎞️
+    - name: 吾的电影网
       url: http://www.wudedy.com/
       icon: http://www.wudedy.com/favicon.ico
-      description: 手机看大片,手机看电影,手机看电视,手机电影下载 - 吾的电影网
+      description: 🎞️
     - name: LIBVIO
       url: https://www.libvio.fun/
       icon: link
       description: LIBVIO
-    - name: 低端影视 网址发布页
-      url: https://ddys.site/
-      icon: link
-      description: 低端影视 网址发布页
-    - name: Kimivod | 電視劇 電影 動漫 綜藝 線上看
+    - name: Kimivod
       url: https://kimivod.com/
-      icon: https://kimivod.com/favicon-32x32.png
-      description: Kimivod | 電視劇 電影 動漫 綜藝 線上看
-    - name: iqiyis 爱奇艺-在线电影-最新电影-免费电影-电影在线观看
-      url: https://iqiyis.com/
-      icon: link
-      description: iqiyis 爱奇艺-在线电影-最新电影-免费电影-电影在线观看
+      icon: /assets/data/logos/kimivod.com.png
+      description: 🎞️
     - name: 新浪资源
       url: http://xinlangzy.com/
       icon: link
       description: 新浪资源
   - name: 字幕
     websites:
-    - name: 字幕 - 从最大的开放式字幕库中下载电影及剧集字幕
+    - name: 字幕
       url: https://www.opensubtitles.org/zh
       icon: https://static.opensubtitles.org/favicon.ico
       description: 字幕 - 从最大的开放式字幕库中下载电影及剧集字幕
@@ -539,10 +500,10 @@
       description: 字幕
   - name: 音乐
     websites:
-    - name: ‎Apple Music - 网页播放器
+    - name: ‎Apple Music
       url: https://music.apple.com/cn/new
       icon: https://music.apple.com/assets/favicon/favicon-32.png
-      description: ‎Apple Music - 网页播放器
+      description: ‎Apple Music
     - name: YesPlayMusic
       url: https://music.qier222.com/
       icon: link
@@ -551,7 +512,7 @@
       url: https://new.myfreemp3juices.cc/
       icon: https://new.myfreemp3juices.cc/android-icon-192x192.png
       description: MYFREEMP3 ▷ Free Mp3 Downloads
-    - name: 下歌吧 - 全网音乐 高品质MP3 在线免费下载 免费播放
+    - name: 下歌吧
       url: https://xiageba.com/
       icon: link
       description: 下歌吧 - 全网音乐 高品质MP3 在线免费下载 免费播放
@@ -559,11 +520,11 @@
       url: https://bailemi.com/
       icon: link
       description: 503 Service Unavailable
-    - name: 种子音乐｜抖音歌曲｜免费在线Mp3听歌音乐播放器｜热门歌曲排行榜｜最新歌曲大全
+    - name: 种子音乐
       url: https://zz123.com/
       icon: https://zz123.com/favicon.ico
       description: 种子音乐｜抖音歌曲｜免费在线Mp3听歌音乐播放器｜热门歌曲排行榜｜最新歌曲大全
-    - name: 铜钟音乐官网-音乐免费下载，MP3歌曲免费下载，在线音乐免费听
+    - name: 铜钟音乐
       url: https://tonzhon.com/
       icon: https://tonzhon.com/favicon.ico
       description: 铜钟音乐官网-音乐免费下载，MP3歌曲免费下载，在线音乐免费听
@@ -571,9 +532,9 @@
       url: https://tool.liumingye.cn/unlock-music/
       icon: https://tool.liumingye.cn/unlock-music/favicon.ico
       description: 音乐解锁 - Unlock Music
-    - name: Audiomack - Music platform empowering artists &amp; fans | Audiomack
+    - name: Audiomack
       url: https://audiomack.com/
-      icon: https://audiomack.com/favicon.ico
+      icon: /assets/data/logos/audiomack.com.png
       description: Audiomack - Music platform empowering artists &amp; fans | Audiomack
   - name: 网络文学
     websites:
@@ -599,37 +560,37 @@
       url: https://github.com/
       icon: https://github.githubassets.com/favicons/favicon.png
       description: GitHub
-    - name: DevOps_DevOps 解决方案_一站式 DevOps_开发者工具 | 腾讯云 CODING DevOps
+    - name: CODING
       url: https://coding.net/
       icon: https://help-assets.codehub.cn/enterprise/guanwang/favicon.ico
-      description: DevOps_DevOps 解决方案_一站式 DevOps_开发者工具 | 腾讯云 CODING DevOps
-    - name: OSCHINA - 中文开源技术交流社区
+      description: CODING
+    - name: OSCHINA
       url: https://www.oschina.net/
       icon: https://www.oschina.net/favicon.ico
-      description: OSCHINA - 中文开源技术交流社区
-    - name: Gitee - 基于 Git 的代码托管和研发协作平台
+      description: OSCHINA
+    - name: Gitee
       url: https://gitee.com/
       icon: https://gitee.com/favicon.ico
-      description: Gitee - 基于 Git 的代码托管和研发协作平台
-    - name: CSDN_专业开发者社区_已接入DeepSeekR1满血版
+      description: Gitee
+    - name: CSDN
       url: https://www.csdn.net/
       icon: link
-      description: CSDN_专业开发者社区_已接入DeepSeekR1满血版
+      description: CSDN
     - name: V2EX
       url: https://www.v2ex.com/
       icon: https://www.v2ex.com/static/icon-192.png
       description: V2EX
   - name: 专业论坛
     websites:
-    - name: 科技玩家NET - 发现科技的更多面
+    - name: 科技玩家
       url: https://www.kejiwanjia.net/
       icon: link
       description: 科技玩家NET - 发现科技的更多面
-    - name: 油猴中文网 - Powered by Discuz!
+    - name: 油猴中文网
       url: https://bbs.tampermonkey.net.cn/
       icon: https://bbs.tampermonkey.net.cn/favicon.ico
-      description: 油猴中文网 - Powered by Discuz!
-    - name: 智能电视网_智能电视论坛_智能电视软件_智能电视游戏_安卓机顶盒论坛
+      description: 油猴中文网
+    - name: 智能电视网
       url: https://www.znds.com/
       icon: link
       description: 智能电视网_智能电视论坛_智能电视软件_智能电视游戏_安卓机顶盒论坛
@@ -637,18 +598,18 @@
       url: https://www.right.com.cn/forum/
       icon: link
       description: 恩山无线论坛
-    - name: 吾爱破解 - LCG - LSG|安卓破解|病毒分析|www.52pojie.cn
+    - name: 吾爱破解
       url: https://www.52pojie.cn/
       icon: https://www.52pojie.cn/favicon.ico
       description: 吾爱破解 - LCG - LSG|安卓破解|病毒分析|www.52pojie.cn
-    - name: 远景论坛 - 微软极客社区
+    - name: 远景论坛
       url: http://www.pcbeta.com/
       icon: link
-      description: 远景论坛 - 微软极客社区
-    - name: 飘云阁-PYG|软件安全|破解软件|内购破解|移动安全|chinapyg.com - Powered by Discuz!
+      description: 微软极客社区
+    - name: 飘云阁
       url: https://www.chinapyg.com/
       icon: link
-      description: 飘云阁-PYG|软件安全|破解软件|内购破解|移动安全|chinapyg.com - Powered by Discuz!
+      description: 飘云阁-PYG|软件安全|破解软件|内购破解|移动安全|chinapyg.com
   - name: 个人博客
     websites:
     - name: 双霖 - LineSoft
@@ -663,7 +624,7 @@
       url: https://www.dwblog.cn/
       icon: link
       description: 第五博客
-    - name: 竹春廿柒_相视而笑 莫逆于心
+    - name: 竹春廿柒
       url: https://mojinxi.cn/
       icon: link
       description: 竹春廿柒_相视而笑 莫逆于心
@@ -671,10 +632,10 @@
       url: https://www.sqlsec.com/
       icon: https://image.3001.net/images/20200922/16007336487809.jpg
       description: 国光
-    - name: 图拉丁CLUB - DIY垃圾佬的网站
+    - name: 图拉丁CLUB
       url: https://tualatin.club/
       icon: https://tualatin.club/wp-content/uploads/2021/12/LOGO-1-100x100-1.jpg
-      description: 图拉丁CLUB - DIY垃圾佬的网站
+      description: DIY垃圾佬的网站
     - name: 阮一峰的网络日志
       url: https://www.ruanyifeng.com/blog/
       icon: link
@@ -693,23 +654,23 @@
   sections:
   - name: 网盘资源
     websites:
-    - name: 百度网盘资源分享_云盘资源分享网_夸克网盘资源分享_云盘资源网
+    - name: 云盘资源分享网
       url: https://www.yunpanziyuan.xyz/
       icon: https://www.yunpanziyuan.xyz/view/img/favicon.ico
       description: 百度网盘资源分享_云盘资源分享网_夸克网盘资源分享_云盘资源网
-    - name: 云盘资源网最新地址发布页
+    - name: 云盘资源网
       url: http://yunpanziyuan.top/
       icon: https://cdn.bytedance.com/src/res/favicon.png
-      description: 云盘资源网最新地址发布页
-    - name: 千帆搜索 - 资源超丰富的聚合网盘搜索引擎！
+      description: 云盘资源网最
+    - name: 千帆搜索 
       url: https://pan.qianfan.app/
       icon: https://pan.qianfan.app/favicon.ico
-      description: 千帆搜索 - 资源超丰富的聚合网盘搜索引擎！
-    - name: 一只鱼-资源小站
+      description: 资源超丰富的聚合网盘搜索引擎！
+    - name: 一只鱼
       url: https://dp.youtd.cc/
       icon: link
       description: 一只鱼-资源小站
-    - name: 我的小站-订阅你感兴趣的内容
+    - name: 我的小站
       url: https://pan666.net/
       icon: link
       description: 我的小站-订阅你感兴趣的内容
@@ -719,34 +680,34 @@
       description: 天翼小站
   - name: 离线下载
     websites:
-    - name: PikPak 介绍 | PikPak - 极速秒存的私密云盘
+    - name: PikPak
       url: https://mypikpak.com/zh-CN
       icon: https://mypikpak.com/favicon-32x32.png
-      description: PikPak 介绍 | PikPak - 极速秒存的私密云盘
-    - name: 登录-磁力空间-你的离线专家|磁力空间官网
+      description: 极速秒存的私密云盘
+    - name: 磁力空间
       url: https://cilikongjian.com/login
       icon: https://cilikongjian.com/favicon.ico
-      description: 登录-磁力空间-你的离线专家|磁力空间官网
-    - name: Download and play torrents | Webtor.io
+      description: 你的离线专家
+    - name: Webtor
       url: https://webtor.io/
       icon: https://webtor.io/assets/night/favicon-48x48.png
-      description: Download and play torrents | Webtor.io
+      description: Download and play torrents
     - name: BTSOW
       url: https://tellme.pw/bts/
       icon: https://tellme.pw/app/bts/View/img/favicon.ico
       description: BTSOW
-    - name: 磁力猫最新网址，收藏我回家不迷路！
+    - name: 磁力猫
       url: https://xn--tfrs17es0d.com/
       icon: link
-      description: 磁力猫最新网址，收藏我回家不迷路！
-    - name: 磁力猫最新网址，收藏我回家不迷路！
+      description: 磁力猫
+    - name: 磁力猫
       url: https://xn--0tr952eyzisl5a.com/
       icon: link
-      description: 磁力猫最新网址，收藏我回家不迷路！
-    - name: BT天堂 - 2025最新高清电影1080P|2160P|4K资源免费下载
+      description: 磁力猫
+    - name: BT天堂
       url: https://www.bttt11.com/
       icon: link
-      description: BT天堂 - 2025最新高清电影1080P|2160P|4K资源免费下载
+      description: 2025最新高清电影1080P|2160P|4K资源免费下载
   - name: 图标素材
     websites:
     - name: 9,025,000+ free and premium vector icons, illustrations and 3D illustrations
@@ -810,49 +771,49 @@
   sections:
   - name: 综合工具
     websites:
-    - name: 帮小忙 - 工具箱平台
+    - name: 帮小忙
       url: https://tool.browser.qq.com/
       icon: https://tool.browser.qq.com/favicon.ico
-      description: 帮小忙 - 工具箱平台
-    - name: Nice Tool在线工具箱-开发专用的在线工具都在Nice在线工具箱！
+      description: 工具箱平台
+    - name: Nice Tool在线工具箱
       url: https://www.nicetool.com.cn/
       icon: https://www.nicetool.com.cn/favicon.ico
-      description: Nice Tool在线工具箱-开发专用的在线工具都在Nice在线工具箱！
-    - name: All Online Tools in One Box | 10015 Tools
+      description: 开发专用的在线工具都在Nice在线工具箱！
+    - name: 10015 Tools
       url: https://10015.io/
       icon: https://10015.io/icons/icon-192x192.png
-      description: All Online Tools in One Box | 10015 Tools
-    - name: 一个木函 - 多功能效率工具箱
+      description: All Online Tools in One Box
+    - name: 一个木函
       url: https://ol.woobx.cn/
       icon: https://ol.woobx.cn/favicon.ico
-      description: 一个木函 - 多功能效率工具箱
-    - name: Web Apps by 123apps - 编辑、转换、创建
+      description: 多功能效率工具箱
+    - name: Web Apps by 123apps
       url: https://123apps.com/cn/
       icon: https://123apps.com/static/i/v3/favicon.svg
       description: Web Apps by 123apps - 编辑、转换、创建
-    - name: 即时工具-致力打造即用即走型在线工具箱
+    - name: 即时工具
       url: https://www.67tool.com/
       icon: https://www.67tool.com/favicon.ico
-      description: 即时工具-致力打造即用即走型在线工具箱
-    - name: 专注于体验的免费在线工具 - 独特工具箱 - dute.org
+      description: 致力打造即用即走型在线工具箱
+    - name: 独特工具箱
       url: https://www.dute.org/
       icon: https://cdn-v2.tool.dute.me/assets/images/web/favicon.ico
-      description: 专注于体验的免费在线工具 - 独特工具箱 - dute.org
-    - name: 首页-风雪工具站
+      description: 专注于体验的免费在线工具
+    - name: 风雪工具站
       url: https://zxso.net/
       icon: https://zxso.net/favicon.ico
-      description: 首页-风雪工具站
+      description: 风雪工具站
   - name: 图片
     websites:
-    - name: QRBTF - AI 二维码生成器
+    - name: QRBTF
       url: https://qrbtf.com/zh
       icon: link
-      description: QRBTF - AI 二维码生成器
+      description: AI 二维码生成器
     - name: 草料二维码生成器
       url: https://cli.im/
       icon: https://static.clewm.net/static/images/favicon.ico
       description: 草料二维码生成器
-    - name: TinyPNG – Compress WebP, PNG and JPEG images intelligently
+    - name: TinyPNG
       url: https://tinypng.com/
       icon: https://tinypng.com/images/favicon.ico
       description: TinyPNG – Compress WebP, PNG and JPEG images intelligently
@@ -860,58 +821,58 @@
       url: https://squoosh.app/
       icon: https://squoosh.app/c/favicon-c9cf50ef.ico
       description: Squoosh
-    - name: 最优图像优化 - Recompressor
+    - name: Recompressor
       url: https://zh.recompressor.com/
       icon: https://dinficfagt18c.cloudfront.net/p/assets/m/favicons/recompressor/favicon-32_27c902bffe798f22e69418f7e6b51c26.png
-      description: 最优图像优化 - Recompressor
-    - name: 在线图片压缩！支持GIF动图压缩，PNG压缩，JPG压缩。可精确控制照片的长宽和大小。图好快出品！
+      description: 最优图像优化
+    - name: 图好快出品
       url: https://www.tuhaokuai.com/
       icon: https://www.tuhaokuai.com/themes/default/images/fav.ico
-      description: 在线图片压缩！支持GIF动图压缩，PNG压缩，JPG压缩。可精确控制照片的长宽和大小。图好快出品！
-    - name: 'Removerized: 先进的 AI 背景去除工具 - 免费且安全'
+      description: 在线图片压缩！支持GIF动图压缩，PNG压缩，JPG压缩。可精确控制照片的长宽和大小。
+    - name: Removerized
       url: https://removerized.tech/zh
-      icon: https://removerized.tech/favicon.ico
-      description: 'Removerized: 先进的 AI 背景去除工具 - 免费且安全'
-    - name: 在线抠图软件_图片去除背景 | remove.bg – remove.bg
+      icon: /assets/data/logos/removerized.tech.png
+      description: 先进的 AI 背景去除工具 - 免费且安全
+    - name: remove.bg
       url: https://www.remove.bg/zh/
       icon: https://www.remove.bg/favicon-32x32.png?v=fc0bfce6e1310f1539afec9729716721
-      description: 在线抠图软件_图片去除背景 | remove.bg – remove.bg
-    - name: Clipping Magic：删除线上图像背景
+      description: 在线抠图软件_图片去除背景
+    - name: Clipping Magic
       url: https://zh.clippingmagic.com/
       icon: https://d5nunyagcicgy.cloudfront.net/p/assets/m/favicons/cm/favicon-32_58e41bb4014f688dd792a26cae7b8afc.png
-      description: Clipping Magic：删除线上图像背景
-    - name: Background Remover by AutoClipping.com
+      description: 删除线上图像背景
+    - name: AutoClipping
       url: https://autoclipping.com/
       icon: https://autoclipping.com/images/base/ACLogo32px.png
-      description: Background Remover by AutoClipping.com
-    - name: 【抠图】在线抠图软件_ps抠图证件照换底色-稿定设计
+      description: Background Remover
+    - name: 稿定设计
       url: https://www.gaoding.com/koutu
       icon: link
-      description: 【抠图】在线抠图软件_ps抠图证件照换底色-稿定设计
-    - name: 在线图片压缩_视频转GIF软件_GIF裁剪合成工具-图贴士
+      description: 在线抠图软件_ps抠图证件照换底色
+    - name: 图贴士
       url: https://www.tutieshi.com/
       icon: https://www.tutieshi.com/favicon.ico
-      description: 在线图片压缩_视频转GIF软件_GIF裁剪合成工具-图贴士
+      description: 在线图片压缩_视频转GIF软件_GIF裁剪合成工具
     - name: SVGOMG - SVGO&#39;s Missing GUI
       url: https://jakearchibald.github.io/svgomg/
       icon: https://jakearchibald.github.io/svgomg/imgs/icon.png
       description: SVGOMG - SVGO&#39;s Missing GUI
-    - name: 改图鸭-在线图片压缩软件,jpg、png、gif图片一键压缩
+    - name: 改图鸭
       url: https://www.gaituya.com/
       icon: https://www.gaituya.com/favicon.ico
-      description: 改图鸭-在线图片压缩软件,jpg、png、gif图片一键压缩
-    - name: Bigjpg - AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片
+      description: 在线图片压缩软件,jpg、png、gif图片一键压缩
+    - name: Bigjpg
       url: https://bigjpg.com/
       icon: https://bigjpg.com/htdocs/favicon.ico
-      description: Bigjpg - AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片
-    - name: iLoveIMG | 图像文件在线编辑工具
+      description: AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片
+    - name: iLoveIMG
       url: https://www.iloveimg.com/zh-cn
       icon: https://www.iloveimg.com/img/favicons-img/favicon-16x16.png
-      description: iLoveIMG | 图像文件在线编辑工具
-    - name: Ezgif - free online animated GIF editor
+      description: 图像文件在线编辑工具
+    - name: Ezgif
       url: https://ezgif.com/
       icon: https://ezgif.com/favicon.ico
-      description: Ezgif - free online animated GIF editor
+      description: free online animated GIF editor
     - name: Android Shadow Generator
       url: https://inloop.github.io/shadow4android/
       icon: https://inloop.github.io/shadow4android/img/icon.png
@@ -922,49 +883,49 @@
       description: waifu2x
   - name: 文档处理
     websites:
-    - name: docsmall - 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具
+    - name: docsmall
       url: https://docsmall.com/
       icon: https://docsmall.com/favicon.png
       description: docsmall - 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具
-    - name: 'PDF24 Tools: 免费且易于使用的在线PDF工具'
+    - name: PDF24 Tools
       url: https://tools.pdf24.org/zh/
       icon: https://tools.pdf24.org/static/img/pdf24.png?v=658057a1
-      description: 'PDF24 Tools: 免费且易于使用的在线PDF工具'
-    - name: iLovePDF | 为PDF爱好者提供的PDF文件在线处理工具
+      description: 免费且易于使用的在线PDF工具
+    - name: iLovePDF
       url: https://www.ilovepdf.com/zh-cn
       icon: https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png
-      description: iLovePDF | 为PDF爱好者提供的PDF文件在线处理工具
-    - name: Smallpdf.com – 您所有PDF问题的免费解决方案
+      description: 为PDF爱好者提供的PDF文件在线处理工具
+    - name: Smallpdf.com 
       url: https://smallpdf.com/cn
       icon: https://smallpdf.com/favicon.png
-      description: Smallpdf.com – 您所有PDF问题的免费解决方案
-    - name: PDFdo.com -- 在线免费处理转换PDF
+      description: 您所有PDF问题的免费解决方案
+    - name: PDFdo.com
       url: http://www.pdfdo.com/
       icon: http://www.pdfdo.com/favicon.ico
-      description: PDFdo.com -- 在线免费处理转换PDF
-    - name: 免费的在线文档翻译器——保留原文档的排版（Word、PDF、Excel、Powerpoint、OpenOffice、文本）
+      description: 在线免费处理转换PDF
+    - name: 免费的在线文档翻译器
       url: https://www.onlinedoctranslator.com/zh-CN/
       icon: https://www.onlinedoctranslator.com/resources/img/logo-icons.png
       description: 免费的在线文档翻译器——保留原文档的排版（Word、PDF、Excel、Powerpoint、OpenOffice、文本）
-    - name: TXT文本处理工具 - 在线文本工具
+    - name: 在线文本工具
       url: https://www.txttool.com/
       icon: link
       description: TXT文本处理工具 - 在线文本工具
-    - name: PDF转Word | 免费在线PDF转Word | PDF转Word转换器 | PDF转化速度快 | 首页
+    - name: PDF转Word | 免费在线PDF转Word | PDF转Word转换器 | PDF转化速度快
       url: https://www.alltoall.net/
       icon: https://www.alltoall.net/qfy-content/uploads/2022/07/b42759ab5cf74aa8f1ce08d1317b6940.jpg
       description: PDF转Word | 免费在线PDF转Word | PDF转Word转换器 | PDF转化速度快 | 首页
   - name: 设计
     websites:
-    - name: 稿定设计-在线设计平台_海报设计_图片设计_视频编辑_设计协作
+    - name: 稿定设计
       url: https://www.gaoding.com/
       icon: link
       description: 稿定设计-在线设计平台_海报设计_图片设计_视频编辑_设计协作
-    - name: 屏幕尺寸 |常见设备的视区大小和像素密度
+    - name: 屏幕尺寸
       url: https://screensiz.es/
       icon: link
       description: 屏幕尺寸 |常见设备的视区大小和像素密度
-    - name: 奇迹秀 - 因设计·而美丽
+    - name: 奇迹秀 
       url: https://www.qijishow.com/
       icon: https://www.qijishow.com/img/ico.ico
       description: 奇迹秀 - 因设计·而美丽
@@ -986,10 +947,10 @@
       url: https://streamja.com/
       icon: link
       description: Streamja - 视频图床
-    - name: 彩虹屁生成器 - https://shadiao.app
+    - name: 彩虹屁生成器 
       url: https://chp.shadiao.pro/
       icon: https://chp.shadiao.pro/chp.ico
-      description: 彩虹屁生成器 - https://shadiao.app
+      description: 彩虹屁生成器
     - name: 源仓库最新地址发布页
       url: https://yckceo.vip/
       icon: https://yckceo.vip/favicon.ico
@@ -1004,11 +965,11 @@
       url: https://hanabi.cn/h2/index
       icon: https://hanabi.cn/favicon.ico
       description: 首页
-    - name: 微词云 · 简单强大的文字云艺术生成器
+    - name: 微词云
       url: https://www.weiciyun.com/
       icon: https://www.weiciyun.com/img/weiciyun.ico
       description: 微词云 · 简单强大的文字云艺术生成器
-    - name: 免费在线中文词频分析—LZL在线工具
+    - name: 免费在线中文词频分析
       url: https://www.lzltool.cn/word-frequency
       icon: https://www.lzltool.cn/favicon.ico?v=1
       description: 免费在线中文词频分析—LZL在线工具
@@ -1028,53 +989,53 @@
       url: https://next.itellyou.cn/
       icon: https://next.itellyou.cn/favicon.ico
       description: NEXT, ITELLYOU
-    - name: 又要重装系统站 - 精品系统包分享
+    - name: 又要重装系统站
       url: https://www.yyczxt.com/
       icon: https://www.yyczxt.com/static/img/favicon.svg
       description: 又要重装系统站 - 精品系统包分享
     - name: HelloWindows-精校 完整 极致 Windows系统下载仓储站丨www.hellowindows.cn
       url: https://hellowindows.cn/
       icon: link
-      description: HelloWindows-精校 完整 极致 Windows系统下载仓储站丨www.hellowindows.cn
-    - name: MSDN原版系统,纯净镜像,MSDN ISO下载 - 我的MSDN
+      description: HelloWindows
+    - name: 我的MSDN
       url: https://www.imsdn.cn/
       icon: https://www.imsdn.cn/images/favicon.png
-      description: MSDN原版系统,纯净镜像,MSDN ISO下载 - 我的MSDN
+      description: MSDN原版系统,纯净镜像,MSDN ISO下载
     - name: MSDN - 山己几子木
       url: https://msdn.sjjzm.com/
       icon: https://msdn.sjjzm.com/favicon.ico
       description: MSDN - 山己几子木
   - name: PE
     websites:
-    - name: Edgeless-强大而优雅的PE工具
+    - name: Edgeless
       url: https://home.edgeless.top/#me
       icon: https://home.edgeless.top/favicon.ico
       description: Edgeless-强大而优雅的PE工具
   - name: 优化
     websites:
-    - name: DirectX修复工具增强版_VBcom的博客-CSDN博客_directxrepair
+    - name: DirectX修复工具增强版
       url: https://blog.csdn.net/VBcom/article/details/7245186?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164881326216780265499279%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164881326216780265499279&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-4-7245186.142^v5^control,157^v4^control&utm_term=directx+repair&spm=1018.2226.3001.4187
       icon: link
-      description: DirectX修复工具增强版_VBcom的博客-CSDN博客_directxrepair
+      description: DirectX修复工具增强版_directxrepair
     - name: Lenovo Quick Fix 联想智能解决工具工具-联想知识库
       url: https://iknow.lenovo.com.cn/topic/c_185.html
       icon: https://iknow.lenovo.com.cn/favicon.ico
       description: Lenovo Quick Fix 联想智能解决工具工具-联想知识库
   - name: 工具
     websites:
-    - name: Xiaomi Mi Flash Tool 2025 Latest Version – Official Mi Flash Tool
+    - name: Xiaomi Mi Flash Tool
       url: https://xiaomimiflashtool.com/
       icon: https://xiaomimiflashtool.com/wp-content/themes/ft/images/favicon.ico
-      description: Xiaomi Mi Flash Tool 2025 Latest Version – Official Mi Flash Tool
+      description: official Mi Flash Tool
     - name: Xiaomi Router Developer Guide &amp; Tools
       url: https://miwifi.dev/ssh
       icon: https://miwifi.dev/favicon.ico
       description: Xiaomi Router Developer Guide &amp; Tools
-    - name: 图吧工具箱 - 最纯净的硬件工具箱
+    - name: 图吧工具箱
       url: https://www.tbtool.cn/
       icon: https://www.tbtool.cn/favicon.ico
-      description: 图吧工具箱 - 最纯净的硬件工具箱
-    - name: 晨钟网络科技 - 致力于开发小众实用软件
+      description: 最纯净的硬件工具箱
+    - name: 晨钟网络科技
       url: https://jamcz.com/
       icon: https://jamcz.com/favicon.ico
-      description: 晨钟网络科技 - 致力于开发小众实用软件
+      description: 致力于开发小众实用软件

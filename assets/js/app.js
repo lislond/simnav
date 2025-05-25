@@ -165,28 +165,29 @@ const sidebarManager = {
 const contentRenderer = {
     // 创建网站卡片
     createWebsiteCard(website) {
-        const card = document.createElement('div');
-        card.className = 'website-card bg-white dark:bg-neutral-700';
-        card.dataset.websiteId = website.name;
+    const card = document.createElement('div');
+    // 使用适中的卡片样式
+    card.className = 'website-card bg-white dark:bg-neutral-700 group relative rounded-md shadow-sm hover:shadow-md transition-all duration-200 h-[150px] flex flex-col';
+    card.dataset.websiteId = website.name;
 
-        card.innerHTML = `
-            <a href="${website.url}" target="_blank" class="website-link block">
-                <div class="website-header flex items-center gap-3 mb-3">
-                    <div class="website-icon bg-neutral-100 dark:bg-neutral-700">
-                        <img 
+    card.innerHTML = `
+        <a href="${website.url}" target="_blank" class="website-link flex-1 flex flex-col p-3">
+            <div class="website-header flex items-center gap-3 mb-2">
+                <div class="website-icon w-12 h-12 rounded-md bg-neutral-100 dark:bg-neutral-700 flex items-center justify-center overflow-hidden flex-shrink-0">
+                    <img 
                         src="${website.icon}" 
                         alt="${website.name}" 
-                        class="max-w-full max-h-full object-contain transition-transform"  /* 所有样式通过类名定义 */
+                        class="w-full h-full object-contain p-2" 
                         onerror="this.src='/assets/data/images/fallback-icon.png'; this.onerror=null"
-                        />
-            </div>
-                <h3 class="website-title font-medium text-neutral-800 dark:text-neutral-200">${website.name}</h3>
+                    />
                 </div>
-                    <p class="website-description text-sm text-neutral-600 dark:text-neutral-400">${website.description}</p>
-            </a>
-`;
-        return card;
-    },
+                <h3 class="website-title font-medium text-neutral-800 dark:text-neutral-200 text-base line-clamp-2">${website.name}</h3> <!-- 增大标题字体到text-base(16px) -->
+            </div>
+            <p class="website-description text-sm text-neutral-600 dark:text-neutral-400 line-clamp-2 flex-1 min-h-0">${website.description}</p> <!-- 增大描述字体到text-sm(14px) -->
+        </a>
+    `;
+    return card;
+},
 
     // 初始化侧边栏导航
     initSidebarNav() {

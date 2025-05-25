@@ -179,21 +179,21 @@ p,
     overflow: hidden;
 }
 
-/* 鼠标悬停时显示完整描述 */
+/* 鼠标悬停时显示完整描述
 .website-card:hover .website-description {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #121A28; /* 背景颜色，可根据需要调整 */
-    color: #fff; /* 文字颜色，可根据需要调整 */
+    background-color: #121A28; 背景颜色，可根据需要调整 
+    color: #fff; 文字颜色，可根据需要调整 
     padding: 1rem;
     opacity: 1;
     visibility: visible;
     -webkit-line-clamp: unset;
     overflow: auto;
-}
+} */
 
 /* 页脚样式 */
 .footer {
